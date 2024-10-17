@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9; /* Light grey background for a clean look */
+    color: #333; /* Dark text for readability */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50; /* Dark blue heading */
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#inputField {
+    padding: 12px;
+    font-size: 1.5em;
+    width: 350px;
+    background-color: #fff; 
+    color: #333;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#inputField:focus {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #2c3e50;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #2c3e50;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1em;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 1px;
+}
